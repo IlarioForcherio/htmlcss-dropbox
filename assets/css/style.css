@@ -79,16 +79,89 @@ header{
     color: white;
     background-color: blue;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px 15px;
+    text-align: center;
 }
 header a {
     margin-top: 50px;
 }
 
 .fa-arrow-down{
-    font-size: 3rem;
+    font-size: 2rem;
+}
+.fa-check{
+    color: #0364ff;
+}
+
+.text-sec1{
+flex-basis: 30%;
+}
+.img-sec1{
+flex-basis: 68%;
+}
+/* MAIN */
+
+.main-container{
+    width: 60%;
+    margin: 0 auto;
     
 }
+.main-container h2{
+    font-size: 2.3rem;
+    text-align: left;
+    margin: 40px 0;
+
+}
+
+.main-title{
+    padding:40px 0;
+}
+
+.columns{
+    
+    display: flex;
+    
+}
+.col{
+    width:calc(100% / 3);
+    border:2px solid black;
+    
+    
+}
+
+.top-col{
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-size: 1rem;
+    vertical-align: middle;
+    
+    
+    
+}
+.fa-user {
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
+
+
+.col2{
+    margin:0 30px;
+}
+.main-container > input{
+    display: inline;
+}
+.col-text{
+    padding: 10px 10px;
+}
+.col-text * {
+    padding: 20px 0px;
+}
+.hr{
+    border-top: 1px solid black;
+    width: 50px;
+    
+}
+
 
 
 
