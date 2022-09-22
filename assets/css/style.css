@@ -1,10 +1,83 @@
-header{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+nav{
     display: flex;
-    background-color: aquamarine;
+    
     width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+    
 
 }
+
+nav  img{
+    vertical-align: middle;
+    width:100px;
+    margin-bottom: 5px;
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav span{
+    background-color: blue;
+    color: white;
+    padding: 8px 15px;
+}
+nav a {
+    padding: 10px;
+}
+/* HEADER */
+
+
+header{
+    width: 100%;
+    margin: 0 auto;
+    background-color:#b4d0e7 ;
+}
+
+/* SEC1 */
+
+.sec1{
+    
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sec1 h1{
+    font-size:3.5rem;
+}
+
+.sec1-container{
+   display: flex;
+   
+}
+
+
+.sec1-container img{
+    width: 100%;
+}
+
+.blue-btn{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 15px;
+}
+header a {
+    margin-top: 50px;
+}
+
+
+
+
 
