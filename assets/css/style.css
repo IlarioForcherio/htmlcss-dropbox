@@ -39,6 +39,7 @@ nav a {
     padding: 10px;
 }
 /* HEADER */
+/* section1 */
 
 
 header{
@@ -46,8 +47,6 @@ header{
     margin: 0 auto;
     background-color:#b4d0e7 ;
 }
-
-/* SEC1 */
 
 .sec1{
     
@@ -81,6 +80,7 @@ header{
     text-decoration: none;
     padding: 10px 15px;
     text-align: center;
+    
 }
 header a {
     margin-top: 50px;
@@ -99,11 +99,15 @@ flex-basis: 30%;
 .img-sec1{
 flex-basis: 68%;
 }
+
+
 /* MAIN */
+
 
 .main-container{
     width: 60%;
     margin: 0 auto;
+    
     
 }
 .main-container h2{
@@ -163,6 +167,40 @@ flex-basis: 68%;
 }
 
 
+/* ENTERPRISE */
+
+
+
+
+.enterprise{
+    width:100%;
+    margin: 30px 0;
+    
+    border: 2px solid black ;
+    
+    
+    
+}
+.team{
+    text-align: center;
+    border-bottom: 2px solid black;
+    
+    
+}
+.sec2{
+    display: flex;
+    justify-content: space-between;
+}
+.sec2-text{
+    padding:20px 20px;
+    line-height: 30px;
+}
+.sec2-btn{
+    background-color: blue;
+    color: white;
+    
+
+}
 
 
 
