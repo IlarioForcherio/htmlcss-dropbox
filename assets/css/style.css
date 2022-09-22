@@ -52,9 +52,15 @@ header{
     width: 60%;
     margin: 0 auto;
 }
+.text-sec1 > div {
+
+    padding-bottom: 40px;
+    
+}
 
 .sec1 h1{
     font-size:3.5rem;
+    padding:70px 0px ;
 }
 
 .sec1-container{
@@ -75,6 +81,11 @@ header{
 }
 header a {
     margin-top: 50px;
+}
+
+.fa-arrow-down{
+    font-size: 3rem;
+    
 }
 
 
