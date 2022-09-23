@@ -1,24 +1,118 @@
+/* UTILITIES */
+/* FORMATTAZIONE PAGINA */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* UTILITIES */
 
-/* NAV */
+/* /* BOX-VARI  */
 
-nav{
-    background-color: white;
-    display: flex;
+ /* -ATTENZIONE!!-
+/* ALTEZZE FISSE    Togliere le altezze (e bordi) */
+
+.box-100{
     width: 100%;
+    border: 2px solid black;
+    height: 300px;
+}
+
+/* CENTRATURE-CONTAINER*/
+
+.container-100{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+}
+.container-60{
+    width: 60%;
+    margin: 0 auto;
+   
+}
+.container-50{
+    width: 50%;
+    margin: 0 auto;
+   
+}
+.container-40{
+    width: 40%;
+    margin: 0 auto;
+   
+}
+
+/* LISTE */
+
+
+
+
+/* FLEX */
+
+.flex {
+    display: flex;
+}
+
+.flex-jc-between{
+    display: flex;
+    justify-content:space-between;
+}
+.flex-jc-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* COLONNE-FLEXATE */
+
+.column-cnt{
+    display: flex;
+    
+}
+
+.col{
+    width:calc(100% / 3);
+    border: 2px solid black;
+    
+}
+
+/* COLONNE CON SPAZIO(GLUTTER) */
+.column-cnt-glutter{
+    display:flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px;
+
+}
+.col-glutter{
+    width:32%;
+    border: 2px solid black;
+    height: 300px;
+}
+
+/* BOTTONI VARI */
+.blue-btn{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+
+/* INIZIO PROGETTO */
+
+header{
+    background-color: white;
     position: sticky;
     top:0;
-      
 
 }
 
+nav{
+    align-items: center;
+    padding: 30px;
+}
 nav  img{
     vertical-align: middle;
     width:100px;
@@ -28,6 +122,7 @@ nav  img{
 nav a {
     text-decoration: none;
     color: black;
+    padding: 10px;
 }
 
 nav span{
@@ -35,102 +130,56 @@ nav span{
     color: white;
     padding: 8px 15px;
 }
-nav a {
-    padding: 10px;
+
+/* MAIN */
+
+/* JUMBO */
+
+
+.jumbo-container{
+    background-color: #b4d0e7 ;
 }
-/* HEADER */
-/* section1 */
-
-
-header{
-    width: 100%;
-    margin: 0 auto;
-    background-color:#b4d0e7 ;
-}
-
-.sec1{
-    
-    width: 60%;
-    margin: 0 auto;
-}
-.text-sec1 > div {
-
-    padding-bottom: 40px;
-    
-}
-
-.sec1 h1{
+.container-60 h1{
     font-size:3.5rem;
     padding:70px 0px ;
-}
-
-.sec1-container{
-   display: flex;
-   
-}
-
-
-.sec1-container img{
-    width: 100%;
-}
-
-.blue-btn{
-    color: white;
-    background-color: blue;
-    text-decoration: none;
-    padding: 10px 15px;
-    text-align: center;
     
 }
-header a {
-    margin-top: 50px;
+.jumbo-text div{
+    padding-bottom: 40px;
+}
+
+.jumbo-text  {
+    flex-basis: 30%; 
+    
+}
+.jumbo-img {
+    
+    flex-basis: 68%;
+}
+.jumbo-img img {
+    width:100%;
+    
+
 }
 
 .fa-arrow-down{
     font-size: 2rem;
 }
-.fa-check{
-    color: #0364ff;
-}
+/* SECTION1 */
 
-.text-sec1{
-flex-basis: 30%;
-}
-.img-sec1{
-flex-basis: 68%;
-}
-
-
-/* MAIN */
-
-
-.main-container{
-    width: 60%;
-    margin: 0 auto;
-    
-    
-}
 .main-container h2{
     font-size: 2.3rem;
     text-align: left;
     margin: 40px 0;
 
 }
-
 .main-title{
     padding:40px 0;
 }
+/* COLUMNS */
 
-.columns{
-    
-    display: flex;
-    
-}
 .col{
-    width:calc(100% / 3);
-    border:2px solid black;
-    
-    
+    border: 1px solid black;
 }
 
 .top-col{
@@ -138,87 +187,20 @@ flex-basis: 68%;
     border-bottom: 2px solid black;
     font-size: 1rem;
     vertical-align: middle;
-    
-    
-    
 }
 .fa-user {
     font-size: 0.8rem;
     vertical-align: middle;
 }
+li{
+    padding-bottom: 30px;
+    list-style: none;
+}
 
 
-.col2{
-    margin:0 30px;
-}
-.main-container > input{
-    display: inline;
-}
-.col-text{
-    padding: 10px 10px;
-}
-.col-text * {
-    padding: 20px 0px;
-}
 .hr{
     border-top: 1px solid black;
     width: 50px;
-    
-}
-
-
-/* ENTERPRISE */
-
-
-
-
-.enterprise{
-    width:100%;
-    margin: 30px 0;
-    
-    border: 2px solid black ;
-    
-    
-    
-}
-.team{
-    text-align: center;
-    border-bottom: 2px solid black;
-    
-    
-}
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
-.sec2-text{
-    padding:20px 20px;
-    line-height: 30px;
-}
-.sec2-btn{
-    background-color: blue;
-    color: white;
-    
-
-}
-
-/* DE COLONNE */
-
-.tryr{
-
-    width: 100%;
-    height: 200px;
-    border: 2px solid black;
-}
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
-.try{
-   width: 100%; 
-   height: 200px;
-   background-color: lightseagreen;
-   border-left: 3px solid black;
 }
 
 
