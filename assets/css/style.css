@@ -187,7 +187,7 @@ flex-basis: 68%;
     
     
 }
-.sec2{
+.flex{
     display: flex;
     justify-content: space-between;
 }
@@ -200,6 +200,25 @@ flex-basis: 68%;
     color: white;
     
 
+}
+
+/* DE COLONNE */
+
+.tryr{
+
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.try{
+   width: 100%; 
+   height: 200px;
+   background-color: lightseagreen;
+   border-left: 3px solid black;
 }
 
 
