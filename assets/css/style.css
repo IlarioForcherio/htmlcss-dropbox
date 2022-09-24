@@ -64,6 +64,10 @@
     display: flex;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .flex-jc-between{
     display: flex;
     justify-content:space-between;
@@ -261,6 +265,24 @@ li{
     border:2px solid  lightgrey;
     text-align:center;
 }
+
+/* SECTION3 */
+/* CARDS */
+
+.card img{
+    width: 100%;
+}
+.sec3 h3{
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.card h4{
+    padding-bottom: 40px;
+}
+
+
+
 
 
 
