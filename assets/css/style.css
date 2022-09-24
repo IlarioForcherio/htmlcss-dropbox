@@ -12,11 +12,18 @@
  /* -ATTENZIONE!!-
 /* ALTEZZE FISSE    Togliere le altezze (e bordi) */
 
-.box-100{
+.box-100-prova{
     width: 100%;
     border: 2px solid black;
     height: 300px;
+    margin-top: 30px;
 }
+.box-100{
+    width:100%;
+    border: 0.5px solid black ;
+}
+
+
 
 /* CENTRATURE-CONTAINER*/
 
@@ -188,12 +195,12 @@ nav span{
 /* COLUMNS */
 
 .col{
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 
 .top-col{
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid  lightgrey;
     font-size: 1rem;
     vertical-align: middle;
 }
@@ -208,7 +215,7 @@ li{
 
 
 .hr{
-    border-top: 1px solid black;
+    border-top: 1px solid  lightgrey;
     width: 50px;
 }
 .fa-check{
@@ -217,6 +224,42 @@ li{
 
 .col2{
     margin:0 30px;
+}
+
+/* ENTERPRISE */
+
+.enterprise-text{
+    padding:20px 20px;
+    line-height: 30px;
+}
+.enterprise{
+    margin-top:30px;
+    border: 1px solid  lightgrey;
+}
+.partner{
+    
+    padding-top: 70px;
+}
+
+/* PARTNER */
+
+.partner-img{
+    flex-basis: 60%;
+}
+.partner img{
+    width: 100%;
+    
+}
+.partner-text{
+    padding: 30px 20px;
+    flex-basis: 40%;
+    
+}
+
+
+.partner-btn{
+    border:2px solid  lightgrey;
+    text-align:center;
 }
 
 
