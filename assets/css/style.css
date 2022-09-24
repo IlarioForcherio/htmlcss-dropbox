@@ -117,7 +117,22 @@
     text-align: center;
 }
 
+/* SEZIONE DI QUADRATI */
 
+.box-col{
+    display:flex;
+    width:calc(100% / 3);
+    height: calc(100vw / 3);
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.square{
+    width:50%;
+    background-color:red;
+    height: 50%;
+    border: 2px solid black;
+}
 
 
 /* INIZIO PROGETTO */
@@ -281,6 +296,27 @@ li{
     padding-bottom: 40px;
 }
 
+/* BUISNESS */
+
+.buisness {
+    margin-bottom: 70px;
+}
+/* SECTION4 */
+
+.box-col{
+    display:flex;
+    width:calc(100% / 3);
+    height: calc(100vw / 3);
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.square{
+    width:50%;
+    background-color:red;
+    height: 50%;
+    border: 2px solid black;
+}
 
 
 
