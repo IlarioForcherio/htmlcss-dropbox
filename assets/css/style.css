@@ -117,6 +117,15 @@
     text-align: center;
 }
 
+.white-btn{
+    border:1px solid black;
+    text-align:center;
+    color: black;
+    padding: 10px 15px;
+    background-color: white;
+
+}
+
 /* SEZIONE DI QUADRATI */
 
 .box-col{
@@ -135,7 +144,12 @@
 }
 
 
+
 /* INIZIO PROGETTO */
+
+
+
+
 
 header{
     background-color: white;
@@ -188,11 +202,13 @@ nav span{
     
 }
 .jumbo-img {
-    
+    position: relative;
     flex-basis: 68%;
 }
 .jumbo-img img {
     width:100%;
+    position: absolute;
+    top:50px;
     
 
 }
@@ -276,10 +292,7 @@ li{
 }
 
 
-.partner-btn{
-    border:2px solid  lightgrey;
-    text-align:center;
-}
+
 
 /* SECTION3 */
 /* CARDS */
@@ -304,12 +317,28 @@ li{
 /* SECTION4 */
 
 .box-col{
-    display:flex;
+    display: flex;
     width:calc(100% / 3);
     height: calc(100vw / 3);
     border: 2px solid black;
     flex-wrap: wrap;
 }
+.box-col2{
+    width:calc(100% / 3);
+    height: calc(100vw / 3);
+    background-color: rgb(248, 241, 241);
+    padding: 50px 30px;
+    
+}
+
+.hr2{
+    border-top: 1px solid  lightgrey;
+    width: 50px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+
+
 
 .square{
     width:50%;
@@ -317,6 +346,74 @@ li{
     height: 50%;
     border: 2px solid black;
 }
+
+/* SECTION5 */
+
+
+.sec5{
+   background-color: #b4d0e7; 
+   padding: 150px 0px;
+   
+}
+.sec5 h2{
+color:#61082b;
+}
+
+/* SECTION6 */
+
+.sec6-p{
+    display: none;
+}
+
+.up-arrow{
+    display:none;
+    
+}
+
+.sec6:hover .up-arrow{
+display: block;
+}
+
+.sec6:hover .down-arrow{
+    display: none;
+    }
+
+.sec6:hover .sec6-p{
+    display: block;
+}
+
+
+.sec6 h2{
+    padding: 50px 0;
+}
+.sec6-text{
+    padding: 50px 0;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+}
+.f-col1{
+    color: white;
+    width: calc(100% / 5);
+}
+
+.f-cnt{
+    padding: 50px 30px;
+}
+.f-hr{
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    margin-top: 100px;
+}
+
+
+
+
+
 
 
 
