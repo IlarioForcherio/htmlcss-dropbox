@@ -404,6 +404,9 @@ margin-top: 30px;
     padding: 50px 30px;
     
 }
+.box-col2 p{
+ width: 100%;
+}
 
 .hr2{
     border-top: 1px solid  lightgrey;
@@ -474,6 +477,7 @@ color:#61082b;
 .sec6-text{
     padding: 50px 0;
 }
+
 /* HOVER */
 
 /* FAQ-1 */
@@ -552,8 +556,21 @@ footer{
     color: white;
     border: 1px solid white;
     width: 100px;
-    margin-top: 100px;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
+
+.f-cnt li{
+
+list-style: none;
+line-height: 30px;
+
+}
+.f-col1 h2 {
+
+    padding-bottom: 20px;
+}
+
 
 
 
