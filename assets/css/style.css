@@ -121,16 +121,20 @@
     color: white;
     background-color: blue;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 15px 20px;
     text-align: center;
+    white-space:nowrap
 }
 
 .white-btn{
     border:1px solid black;
+    text-decoration: none;
     text-align:center;
     color: black;
-    padding: 10px 15px;
+    padding: 15px 20px;
     background-color: white;
+    white-space:nowrap
+    
 
 }
 
@@ -291,20 +295,52 @@ nav span{
 
 /* ENTERPRISE */
 
-.enterprise-text{
-    padding:20px 20px;
-    line-height: 30px;
-}
 .enterprise{
+    
+    padding-top: 30px;
+
+}
+
+.enterprise-text{
+   padding: 0 20px;
+    line-height: 30px;
+    align-items: center;
+    
+}
+.enterprise-text li{
+    list-style: none;
+}
+
+.enterprise-text h4{
+margin-bottom: 100px;
+}
+.enterprise-text div{
+    font-size: 0.7rem;
+}
+.enterprise-cnt{
     margin-top:30px;
     border: 1px solid  lightgrey;
 }
+.enterprise-btn{
+    
+    align-items: center;
+    padding: 0px 20px;
+}
+.enterprise-btn div{
+    font-size: 1rem;
+    white-space:nowrap
+}
+
+
+
+/* SECTION2 */
+/* PARTNER */
+
+
 .partner{
     
     padding-top: 70px;
 }
-
-/* PARTNER */
 
 .partner-img{
     flex-basis: 60%;
@@ -314,9 +350,13 @@ nav span{
     
 }
 .partner-text{
-    padding: 30px 20px;
+    padding: 0px 20px;
     flex-basis: 40%;
     
+}
+.partner-text div{
+    padding-top:20px;
+    padding-bottom:30px;
 }
 
 
