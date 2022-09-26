@@ -53,7 +53,15 @@
    
 }
 
-/* LISTE */
+/* POSITION */
+
+.relative{
+    position: relative;
+    
+}
+.absolute{
+    position: absolute;
+}
 
 
 
@@ -190,11 +198,16 @@ nav span{
 }
 .container-60 h1{
     font-size:3.5rem;
-    padding:70px 0px ;
+    padding:20px 0px ;
     
 }
+.relative-2{
+    position: relative;
+    top: 50px;
+}
+
 .jumbo-text div{
-    padding-bottom: 40px;
+    padding-bottom: 28px;
 }
 
 .jumbo-text  {
@@ -202,20 +215,19 @@ nav span{
     
 }
 .jumbo-img {
-    position: relative;
-    flex-basis: 68%;
+    
+    flex-basis: 70%;
 }
 .jumbo-img img {
-    width:100%;
-    position: absolute;
-    top:50px;
-    
+    width:100%;  
 
 }
 
 .fa-arrow-down{
     font-size: 2rem;
 }
+
+
 /* SECTION1 */
 
 .main-container h2{
@@ -227,7 +239,7 @@ nav span{
 .main-title{
     padding:40px 0;
 }
-/* COLUMNS */
+/* COLONNE */
 
 .col{
     border: 1px solid lightgrey;
@@ -239,13 +251,29 @@ nav span{
     font-size: 1rem;
     vertical-align: middle;
 }
+
+
+
 .fa-user {
     font-size: 0.8rem;
     vertical-align: middle;
 }
-li{
-    padding-bottom: 30px;
+
+.col1 ul{
+    padding:20px 0;
+}
+.col1 li{
+    padding: 10px 0px;
     list-style: none;
+    padding-left: 25px;
+    text-indent: -0.5rem;
+    text-align: left;
+    margin: 0 10px;
+   
+}
+.col1 div{
+    padding: 20px 0;
+    margin: 20px 15px;
 }
 
 
@@ -258,7 +286,7 @@ li{
 }
 
 .col2{
-    margin:0 30px;
+    margin: 0 20px;
 }
 
 /* ENTERPRISE */
