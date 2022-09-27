@@ -370,22 +370,30 @@ margin-top: 30px;
 /* SECTION3 */
 /* CARDS */
 
+.card-text{
+    font-size:0.9rem;
+    
+}
+
 .card img{
     width: 100%;
 }
-.sec3 h3{
+.sec3 h2{
    padding-top: 100px;
    padding-bottom: 100px;
 }
 
-.card h4{
+.card h3{
     padding-bottom: 40px;
 }
 
 /* BUISNESS */
 
 .buisness {
-    margin-bottom: 70px;
+    margin-bottom: 100px;
+}
+.buisness a {
+    margin-top: 1px;
 }
 /* SECTION4 */
 
@@ -404,15 +412,27 @@ margin-top: 30px;
     padding: 50px 30px;
     
 }
+.box-col2 h2{
+    font-size: 4rem;
+}
 .box-col2 p{
  width: 100%;
+ padding-bottom:30px;
+}
+
+
+
+.fa-registered{
+    font-size: 0.5rem;
+    position: relative;
+    bottom: 30px;
 }
 
 .hr2{
     border-top: 1px solid  lightgrey;
-    width: 50px;
-    padding-bottom: 100px;
-    margin-top: 100px;
+    width: 70px;
+    padding-bottom: 50px;
+    margin-top: 50px;
 }
 
 
